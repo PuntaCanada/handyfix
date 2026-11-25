@@ -1,0 +1,1 @@
+const {test,expect}=require('@playwright/test');test('new resources visible',async({page})=>{await page.goto('file://'+require('path').resolve('public/index.html'));await expect(page.getByRole('heading',{name:'Organic Maps',exact:true})).toBeVisible();await expect(page.locator('a[href="https://proton.me/de/pass"]')).toBeVisible();});

@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://handyfix.pages.dev/sitemap.xml
